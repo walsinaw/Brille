@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Brillé - Catálogo</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to bottom, #fff0f6, #ffffff);
+      min-height: 100vh;
+    }
+
+    header {
+      background: #ffffffcc;
+      backdrop-filter: blur(10px);
+      padding: 30px 20px;
+      text-align: center;
+      color: #8b004e;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      position: sticky;
+      top: 0;
+      z-index: 10;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 36px;
+      letter-spacing: 1px;
+    }
+
+    main {
+      padding: 40px 20px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      overflow: hidden;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(139, 0, 78, 0.15);
+      background-color: #ffffff;
+    }
+
+    thead {
+      background: linear-gradient(to right, #f7d7e5, #fce8f1);
+    }
+
+    th {
+      color: #4d002a;
+      padding: 18px;
+      text-align: left;
+      font-size: 16px;
+      border-bottom: 2px solid #e5bfd3;
+    }
+
+    td {
+      padding: 14px 18px;
+      border-bottom: 1px solid #f2d6e3;
+      font-size: 15px;
+      vertical-align: middle;
+    }
+
+    td:nth-child(4), td:nth-child(5), td:nth-child(6) {
+      text-align: center;
+    }
+
+    tr:last-child td {
+    border-bottom: none;
+    }
+
+    tr:hover {
+    background-color: #fff7fa;
+    transition: background-color 0.3s ease;
+    }
+
+    img {
+    max-width: 60px;
+    max-height: 60px;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    object-fit: cover;
+    }
+
+    footer {
+    margin-top: 60px;
+    text-align: center;
+    background-color: #f9f1f6;
+    color: #8b004e;
+    font-size: 14px;
+    padding: 25px 10px;
+    border-top: 1px solid #e5bfd3;
+    }
+</style>
+</head>
+<body>
+
+<header>
+<h1>Brillé: Catálogo de Produtos</h1>
+</header>
+
+<main>
+<table>
+    <thead>
+    <tr>
+        <th>Produto</th>
+        <th>Marca</th>
+        <th>Categoria</th>
+        <th>Disponibilidade</th>
+        <th>Preço R$</th>
+        <th>Foto</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Produtos serão inseridos aqui pelo Node.js -->
+    </tbody>
+</table>
+</main>
+
+<footer>
+© 2025 Brillé | Todos os direitos reservados
+</footer>
+
+</body>
+</html>
+
